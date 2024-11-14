@@ -71,8 +71,8 @@ const Project = () => {
         "Contact form with validations",
         "Detailed tech stack and feature highlights"
       ],
-      liveLink: "#",  // Link to the live site
-      sourceLink: "https://github.com/AsthaKatiyar7/portfolio-astha"  // Link to the source code repository
+      liveLink: "portfolio-ruddy-omega-57.vercel.app",  // Link to the live site
+      sourceLink: "https://github.com/AsthaKatiyar7/portfolio"  // Link to the source code repository
     }
   ];
 
