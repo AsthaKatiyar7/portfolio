@@ -1,0 +1,34 @@
+.projects-section {
+    padding: 2rem 0;
+  
+    .project-card {
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+      .card-button{
+        background-color: hwb(249 31% 44%); 
+        &:hover {
+          background-color: hsl(284, 40%, 45%); 
+        }
+      }
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+
+
+  
+  .modal {
+    .modal-body {
+      img {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }

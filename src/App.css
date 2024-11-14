@@ -1,0 +1,14 @@
+#intro, #contact {
+    background-color: #202529; /* Replace with your actual navbar color if different */
+    color: white; /* Ensures text is visible on dark background */
+    min-height: 100vh;
+  }
+
+  #skills{
+    margin-top: 50px;
+  }
+  
+  section {
+    background-color: white; /* Background color for all other sections */
+    min-height: 100vh; /* Equal dimensions (viewport height) for all sections */
+  }

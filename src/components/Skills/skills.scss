@@ -1,0 +1,28 @@
+.skills-section {
+  .skill-card {
+    transition: transform 0.3s, box-shadow 0.3s; // Smooth transition for hover effects
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // Add a shadow to cards
+    &:hover {
+      transform: translateY(-5px); // Slight lift on hover
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); // Deepen shadow on hover
+    }
+  }
+
+  .card {
+    margin: 20px 0; // Adjusted margin for better spacing
+    text-align: center; /* Center text in cards */
+    border: none; // Remove default border for a cleaner look
+  }
+
+  .card-img-top {
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Cover the card area */
+    border-radius: 10px 10px 0 0; // Rounded corners for the top image
+  }
+
+  .skills-icon {
+    margin-right: 10px; // Space between icon and text
+    font-size: 1.5rem; // Adjust icon size
+    color: #007bff; // Color for icons
+  }
+}

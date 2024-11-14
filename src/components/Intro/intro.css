@@ -1,0 +1,60 @@
+/* .intro-image-wrapper {
+    display: inline-block; 
+    background-color: white; 
+    border-radius:30%; 
+  }
+
+  .intro-image {
+    border-radius: 50%; 
+    width: 90%;  
+    height: auto; 
+    border: 10px solid #F2FDFF;
+  } */
+
+
+  .intro-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a; /* Adjust this to match your dark background */
+  }
+  
+  .intro-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* This creates a square aspect ratio */
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 10px solid #F2FDFF;
+  }
+  
+  .intro-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .intro-heading {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-typewriter {
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .intro-img-wrapper {
+      margin-bottom: 2rem;
+    }
+  }
